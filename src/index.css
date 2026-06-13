@@ -786,10 +786,14 @@ html {
   gap: 0.5rem;
 }
 
-.footer-meta-rain {
+.footer-meta-emoji {
   animation: float-gentle 3s ease-in-out infinite;
   display: inline-block;
-  color: var(--color-rain-glow);
+  margin: 0 0.2rem;
+}
+
+.footer-meta-emoji.delay {
+  animation-delay: 1.5s;
 }
 
 /* RESPONSIVE MEDIA QUERIES */
