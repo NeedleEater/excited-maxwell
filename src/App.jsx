@@ -329,7 +329,6 @@ export default function App() {
           
           <div className="footer-meta">
             <span>&copy; {new Date().getFullYear()} Spencer Lowe. All rights reserved.</span>
-            <span>&bull;</span>
             <span><span className="footer-meta-emoji">☀️</span> Made in the Valleys of Utah <span className="footer-meta-emoji delay">🏜️</span></span>
           </div>
         </div>
