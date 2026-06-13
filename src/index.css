@@ -824,6 +824,10 @@ html {
   .timeline-badges-wrapper {
     display: none;
   }
+
+  .profile-highlights {
+    display: none;
+  }
   
   .profile-title {
     font-size: 3rem;

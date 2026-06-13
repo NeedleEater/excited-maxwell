@@ -85,7 +85,7 @@ const TIMELINE_DATA = [
     desc: 'Pursuing my Bachelor of Science in Software Engineering at BYU–Idaho while working in the web development and technology sector. Currently focusing on account management and client relations, where I actively apply and expand my engineering skills, design systems knowledge, and technical problem-solving to deliver optimized solutions and drive client success.',
     metrics: [
       { label: 'Academics', value: 'BSE Final Year' },
-      { label: 'Core Stack', value: 'React / JS / Node' }
+      { label: 'Core Stack', value: 'React / JS / Node / C# / C++ / .NET' }
     ],
     badges: ['React & JSX', 'JavaScript ES6+', 'Vite & Node.js', 'SEO Architecture', 'Design Systems', 'Systems Scaling']
   }
