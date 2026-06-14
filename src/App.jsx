@@ -180,9 +180,20 @@ export default function App() {
       {/* Hero Canopy Section */}
       <section className="hero" ref={heroRef}>
         <div 
-          className="hero-bg" 
+          className="hero-bg-container" 
           style={{ transform: `scale(1.05) translateY(${scrollY * 0.35}px)` }} 
-        />
+        >
+          <video 
+            className="hero-video" 
+            src="/forest-hero-1280-2.mp4"
+            poster="/misty_canopy.png"
+            autoPlay
+            loop
+            muted
+            playsInline
+          />
+          <div className="hero-overlay" />
+        </div>
         <div className="mist-layer mist-layer-1" />
         <div className="mist-layer mist-layer-2" />
         <div className="rain-overlay" />

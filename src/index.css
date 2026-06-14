@@ -132,19 +132,33 @@ html {
   background-color: #0e1713;
 }
 
-/* Background image with parallax effect support */
-.hero-bg {
+/* Video Background with parallax effect support */
+.hero-bg-container {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(to bottom, rgba(8, 15, 12, 0.4) 0%, rgba(8, 15, 12, 0.9) 100%), url('/misty_canopy.png');
-  background-size: cover;
-  background-position: center;
   z-index: 1;
   transform: scale(1.05);
   transition: transform 0.5s ease-out;
+}
+
+.hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, rgba(8, 15, 12, 0.4) 0%, rgba(8, 15, 12, 0.9) 100%);
+  pointer-events: none;
 }
 
 /* Animated Mist Layers */
