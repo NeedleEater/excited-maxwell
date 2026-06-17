@@ -186,7 +186,7 @@ export default function App() {
           <video 
             className="hero-video" 
             src="/forest-hero-1280-2.mp4"
-            poster="/misty_canopy.png"
+            preload="auto"
             autoPlay
             loop
             muted
