@@ -330,11 +330,11 @@ export default function App() {
           <div className="footer-contact animate-on-scroll">
             <p className="footer-contact-label">Let's build the future together</p>
             <a 
-              href="mailto:hisexcellency@spencerlowe.com" 
+              href="mailto:spencer@spencerlowe.com" 
               className="footer-email"
               aria-label="Email Spencer Lowe"
             >
-              hisexcellency@spencerlowe.com
+              spencer@spencerlowe.com
             </a>
           </div>
           
