@@ -343,6 +343,7 @@ html {
 .timeline-section {
   position: relative;
   overflow: hidden;
+  border-radius: 24px;
 }
 
 .timeline-parallax-bg {
@@ -352,10 +353,10 @@ html {
   right: 0;
   bottom: -10%;
   background-image: linear-gradient(to bottom, 
-    var(--color-bg-deep) 0%, 
-    transparent 15%, 
-    transparent 85%, 
-    var(--color-bg-deep) 100%
+    var(--color-bg-deep) 10%, 
+    transparent 25%, 
+    transparent 75%, 
+    var(--color-bg-deep) 90%
   ), url('/misty_canopy.png');
   background-size: cover;
   background-position: center;
