@@ -265,7 +265,7 @@ html {
   position: relative;
   z-index: 4;
   background: linear-gradient(to bottom, var(--color-bg-deep) 0%, #050a08 100%);
-  padding: 8rem 0;
+  padding: 8rem 0 4rem;
 }
 
 /* Profile Intro */
@@ -353,10 +353,10 @@ html {
   right: 0;
   bottom: -10%;
   background-image: linear-gradient(to bottom, 
-    var(--color-bg-deep) 10%, 
-    transparent 25%, 
-    transparent 75%, 
-    var(--color-bg-deep) 90%
+    var(--color-bg-deep) 12%, 
+    transparent 28%, 
+    transparent 72%, 
+    var(--color-bg-deep) 88%
   ), url('/misty_canopy.png');
   background-size: cover;
   background-position: center;
@@ -738,7 +738,7 @@ html {
 /* Footer & Contact */
 .footer {
   background-color: #040807;
-  padding: 6rem 0 4rem;
+  padding: 3rem 0 4rem;
   border-top: 1px solid rgba(27, 67, 50, 0.3);
   text-align: center;
   position: relative;
