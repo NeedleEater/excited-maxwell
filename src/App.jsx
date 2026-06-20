@@ -207,7 +207,7 @@ export default function App() {
         </div>
 
         <button className="hero-scroll-btn" onClick={scrollToContent} aria-label="Scroll to profile content">
-          <span>Discover the Path</span>
+          <span>Discover My Path</span>
           <svg viewBox="0 0 24 24">
             <path d="M7 10l5 5 5-5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
