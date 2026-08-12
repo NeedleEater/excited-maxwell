@@ -352,36 +352,55 @@ html {
   box-shadow: 0 5px 15px rgba(116, 198, 157, 0.08);
 }
 
-/* Social Links Bar */
+/* Social Links Bar & Compact Chip Group */
 .social-links-bar {
   display: flex;
   gap: 0.8rem;
   margin-top: 0.5rem;
 }
 
-.social-btn {
+.social-chip-group {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.55rem 1.1rem;
-  background: rgba(15, 28, 22, 0.7);
-  border: 1px solid rgba(116, 198, 157, 0.2);
-  border-radius: 30px;
-  color: var(--color-text-primary);
-  text-decoration: none;
-  font-family: var(--font-accent);
-  font-size: 0.82rem;
-  letter-spacing: 0.05em;
-  transition: var(--transition-smooth);
+  margin-top: 0.75rem;
+  padding: 0.35rem 0.85rem;
+  background: rgba(15, 28, 22, 0.5);
+  border: 1px solid rgba(116, 198, 157, 0.15);
+  border-radius: 20px;
   backdrop-filter: blur(8px);
+  width: fit-content;
 }
 
-.social-btn:hover {
-  background: rgba(116, 198, 157, 0.2);
-  border-color: var(--color-rain-glow);
+.social-chip-label {
+  font-family: var(--font-accent);
+  font-size: 0.75rem;
+  color: rgba(116, 198, 157, 0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-right: 0.2rem;
+}
+
+.social-chip-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  font-family: var(--font-accent);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  transition: var(--transition-smooth);
+}
+
+.social-chip-item:hover {
   color: var(--color-rain-glow);
-  transform: translateY(-2px);
-  box-shadow: 0 0 15px rgba(116, 198, 157, 0.2);
+  transform: translateY(-1px);
+}
+
+.social-chip-dot {
+  color: rgba(116, 198, 157, 0.3);
+  font-size: 0.7rem;
 }
 
 .tech-block-wrapper {
