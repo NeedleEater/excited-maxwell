@@ -1,0 +1,21 @@
+{
+  "projectId": "4583410237323121092",
+  "projectName": "projects/4583410237323121092",
+  "title": "Spencer Lowe \u2014 Mission Control & Telemetry Portfolio",
+  "designSystem": {
+    "name": "assets/4d401d18dc7542d8a8838428115482a1",
+    "displayName": "Orbital Telemetry & Systems HUD",
+    "designMdPath": ".stitch/DESIGN.md"
+  },
+  "screens": [
+    {
+      "id": "7c2c0e11dd0a476f902b2cb91dbb14ac",
+      "name": "projects/4583410237323121092/screens/7c2c0e11dd0a476f902b2cb91dbb14ac",
+      "title": "Spencer Lowe \u2014 Mission Control & Agentic Systems Architecture",
+      "route": "/",
+      "width": 2560,
+      "height": 7494,
+      "htmlPath": ".stitch/designs/mission-control.html"
+    }
+  ]
+}
